@@ -1,0 +1,35 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.content{
+    align-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.content p{
+    font-size: 20px;
+}
